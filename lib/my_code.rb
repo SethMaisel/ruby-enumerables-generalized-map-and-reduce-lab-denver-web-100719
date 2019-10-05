@@ -1,5 +1,5 @@
 def map(array)
-  new_array = []
+  new = []
   i = 0
   while i < array.length
   new_array.push(yield(map([array[{|n| n * -1}]])))
