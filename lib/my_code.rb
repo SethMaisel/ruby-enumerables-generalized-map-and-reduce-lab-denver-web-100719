@@ -2,6 +2,7 @@ def my_own_map(array)
   new_array = []
   i = 0
   while i < array.length
+   map([array]){|n| n * -1})
   new_array.push(yield(array[i]))
   i += 1
   end
